@@ -1,4 +1,4 @@
-import MainGrid from "../understandingGrid/mainGrid";
+
 import Footer from "./footer/footer";
 import LeftSide from "./Left/leftSide";
 import MainNaveBar from "./MainNaveBar";
