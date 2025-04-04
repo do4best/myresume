@@ -6,7 +6,8 @@ import RightSide from "./Right/RightSide";
 
 function MainSite() {
     return (<>
-        <MainNaveBar />
+    <div className="container m-auto ">
+    
         <div className="grid grid-cols-1 sm:grid-cols-12">
             <div className="col-span-3">
                 <LeftSide/>
@@ -15,6 +16,7 @@ function MainSite() {
            
         </div>
          <Footer/>
+         </div>
     </>);
 }
 
