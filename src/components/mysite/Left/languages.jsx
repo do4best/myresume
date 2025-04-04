@@ -7,7 +7,7 @@ import { AiOutlineJavaScript } from "react-icons/ai";
 import { DiJava, DiMongodb, DiMysql, DiPhp, DiPython } from "react-icons/di";
 import { SiTypescript } from "react-icons/si";
 import RangeFinder from "./rangeFinder";
-function Lanuguages() {
+function Languages() {
     return (<>
     
            <div className="ml-5 mt-10">
@@ -17,7 +17,7 @@ function Lanuguages() {
                                 <span className="text-xl">Java Script</span></span>
                                 <RangeFinder myValue={5}/></li>
                             <li><span className="flex p-1  items-center "><IoLogoHtml5 size={10} /><IoLogoCss3 size={10}/>
-                                <span className="text-xl ml-2">HTML5 / CSS3</span></span> <RangeFinder myValue={5}/></li>
+                                <span className="text-xl ml-2">HTML5 / CSS3/Tailwind/DaisyUi</span></span> <RangeFinder myValue={5}/></li>
                             <li><span className="flex p-2 gap-2 items-center "><FaReact size={20} />
                     <span className="text-xl">React JS</span></span>
                     <RangeFinder myValue={7}/></li>
@@ -38,4 +38,4 @@ function Lanuguages() {
     </>);
 }
 
-export default Lanuguages;
+export default Languages;
