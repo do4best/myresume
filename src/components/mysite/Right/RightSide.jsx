@@ -15,7 +15,7 @@ function RightSide() {
 
     return (<>
     
-        <div> <span className="   absolute right-25   mt-5 " onClick={toggleTheme}>{!dark === 'light'?<FaRegLightbulb size={30}/>:<FaLightbulb size={30}/>}</span>
+        <div> <span className="   fixed top-2 right-10 sm:absolute sm:right-25   mt-5 " onClick={toggleTheme}>{!dark === 'light'?<FaRegLightbulb size={30}/>:<FaLightbulb size={30}/>}</span>
             <h1 className="text-2xl p-5">CAREER OBJECTIVE</h1>
             <p className="p-5">
 Software engineer with a proven ability to adapt in both self-starting and
