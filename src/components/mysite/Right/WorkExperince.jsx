@@ -2,7 +2,7 @@ import {MdDateRange, MdLocationPin } from "react-icons/md";
 function WorkExperince() {
     return (<>
         <section>
-        <h1 className="text-2xl first-letter:underline p-5">WorkExperince</h1>
+        <h1 className="text-2xl first-letter:underline p-5">Work Experience</h1>
         
         <p className="ml-5">I have developed this <a href="https://movie-project-olive.vercel.app" target="_blank" className="font-bold text-accent hover:bg-orange-400 hover:underline">project</a> using React Js with tailwind and tried to exercise all the
 knowledge which is needed to demonstrate this demo which is still need some make up.
