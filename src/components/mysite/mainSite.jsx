@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import Footer from "./footer/footer";
 import LeftSide from "./Left/leftSide";
-import MainNaveBar from "./MainNaveBar";
+
 import RightSide from "./Right/RightSide";
 import CardStrange from "./Right/cardStrange";
 
@@ -17,12 +17,13 @@ function MainSite() {
         }, 2000);
 
         return () => clearTimeout(timer); // Cleanup the timer on component unmount
-    
+   
           
     },[])
     return (<>
+       
     <div className="container m-auto ">
-    
+
         <div className="grid grid-cols-1 sm:grid-cols-12">
              {/* Conditionally render CardStrange */}
 
@@ -36,7 +37,7 @@ function MainSite() {
          <Footer/>
          {showModel && <CardStrange onClose={() => setShowModel(false)} />}
          </div>
-    </>);
+          </>);
 }
 
 export default MainSite;
