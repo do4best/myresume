@@ -7,7 +7,7 @@ function LeftSide() {
     return (<>
     <div className="bg-blue-500 text-white rounded-2xl box-content m-2 shadow-2xl skeleton ">    <h1 className="text-2xl p-5">
         <div className="text-3xl font-bold">Meer Afzal</div>
-            <div>Jr.Web Developer</div></h1>
+            <div>Web Developer</div></h1>
             <ul className="ml-5">
                 <li className=""><span className="flex items-center p-2 gap-2 "><MdEmail size={20} />
                     <span className="text-xl text-wrap"><a href="mailto:afzalshah319@gmail.com">afzalshah319@gmail.com</a></span></span></li>

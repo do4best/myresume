@@ -14,7 +14,7 @@ function MainSite() {
         const timer = setTimeout(() => {
         
             setShowModel(true); // Update state to show the component
-        }, 2000);
+        }, 4000);
 
         return () => clearTimeout(timer); // Cleanup the timer on component unmount
    

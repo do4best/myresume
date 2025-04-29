@@ -35,7 +35,7 @@ i compassion to built commercials websites. I will try my best to be fruit full 
             </ul></section>
         <div className="divider"></div>
         <section>
-            <div className="pl-5">
+            <div className="pl-5 mt-14">
             <h1 className="text-xl first-letter:underline ">Front End Developer</h1>
             <h1 className=" first-letter:underline pt-2 "><a href="" target="_blank" className="text-accent hover:underline">T Jay Mobiles.</a></h1>
      
