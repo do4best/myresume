@@ -17,8 +17,14 @@ function RightSide() {
 
     return (<>
     
-        <div> <span className="   fixed top-2 right-35  sm:absolute sm:right-50   mt-5 " onClick={toggleTheme}>{!dark === 'light'?<FaRegLightbulb size={30}/>:<FaLightbulb size={30}/>} </span>
-        <span className=" fixed top-2 right-5 sm:absolute sm:right-5 flex items-center justify-center bg-gray-100 rounded-lg shadow-md p-2 mt-5 border border-gray-300 hover:bg-gray-200 hover:shadow-lg transition-all duration-300 ease-in-out "><TranslationThings/></span>           <h1 className="text-2xl p-5">CAREER OBJECTIVE</h1>
+        <div> <span className="   fixed top-2 right-35  sm:absolute sm:right-50    " onClick={toggleTheme}>{!dark === 'light'?<FaRegLightbulb size={30}/>:<FaLightbulb size={30}/>} </span>
+        <details className="dropdown absolute right-60">
+  <summary className="btn m-1">Language</summary>
+  <ul className="menu dropdown-content bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
+    <li><TranslationThings/>
+        </li></ul> 
+  </details> 
+         <h1 className="text-2xl p-5">CAREER OBJECTIVE</h1>
             <p className="p-5">
 Software engineer with a proven ability to adapt in both self-starting and
 collaborative environments while staying focused on achieving high quality
