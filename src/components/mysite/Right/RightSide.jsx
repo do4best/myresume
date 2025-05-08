@@ -17,8 +17,8 @@ function RightSide() {
 
     return (<>
     
-        <div> <span className="   fixed top-2 right-35  sm:absolute sm:right-50    " onClick={toggleTheme}>{!dark === 'light'?<FaRegLightbulb size={30}/>:<FaLightbulb size={30}/>} </span>
-        <details className="dropdown absolute right-60">
+        <div> <span className="   fixed top-4 right-35  sm:absolute sm:right-50    " onClick={toggleTheme}>{!dark === 'light'?<FaRegLightbulb size={30}/>:<FaLightbulb size={30}/>} </span>
+        <details className="dropdown absolute top-2 right-5">
   <summary className="btn m-1">Language</summary>
   <ul className="menu dropdown-content bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
     <li><TranslationThings/>
